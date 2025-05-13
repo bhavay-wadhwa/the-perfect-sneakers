@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Shoes </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Welcome to The Perfect Snickers</h1>
+    <% for(let i=0;i<id1.length; i++){ %>
+        <div class="container">       
+                
+                <img src="<%=image_link1[i]%>" alt="shoes_img" id="shoe_img">
+                <h4><a href="http://localhost:8080/all/<%=name1[i]%>"><%=name1[i]%></a></h4>
+                <h5>Brand:<%=brand1[i]%></h5>
+                <h4>Starting from <%=price1[i]%></h4> 
+        </div>
+
+    <%}%>
+
+
+    
+</body>
+</html>
